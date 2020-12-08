@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlignTextView">
-        <activity android:name=".MainActivity">
+        <activity android:label="文本测试" android:name=".TextTestActivity"></activity>
+        <activity android:label="单行测试" android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
