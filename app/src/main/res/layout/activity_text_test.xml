@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="联想拯救者电竞手机Pro 12GB+128GB 骁龙865 Plus双液冷散热144Hz电竞屏双模5G游戏手机炽焰战甲"
-        android:textColor="#000000"
+        android:textColor="#FF0000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />

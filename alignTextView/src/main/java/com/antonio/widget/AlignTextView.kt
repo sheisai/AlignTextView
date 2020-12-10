@@ -41,6 +41,7 @@ class AlignTextView : TextView {
         if (text !is String) {
             super.onDraw(canvas)
         } else {
+            paint.color=currentTextColor;
             for (i in 0 until layout.lineCount) {
                 val lineBaseline = layout.getLineBaseline(i) + paddingTop
                 val lineStart = layout.getLineStart(i)
